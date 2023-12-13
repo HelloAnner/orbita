@@ -9,7 +9,7 @@ impl Solution {
         };
 
         let n = arr.len();
-        let mut left = if found { i } else { i - 1 } as i32;
+        let mut left = if found { i } else { i - 1 };
         let mut right = left + 1;
 
 

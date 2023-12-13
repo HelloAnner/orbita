@@ -11,6 +11,7 @@ impl Solution {
             } else if nums[mid as usize] > target {
                 right = mid;
             } else {
+                // 其实就是在不断向左逼近
                 right = mid;
             }
         }

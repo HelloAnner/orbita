@@ -5,3 +5,5 @@ mod first_last_position;
 mod search_2D_matrix;
 mod sqrt;
 mod find_min_rotated_sorted;
+mod find_peak_element;
+mod find_peek_element_ii;

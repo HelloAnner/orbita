@@ -3,7 +3,7 @@ use std::rc::Rc;
 
 mod replace_value_in_tree;
 
-pub struct Solution;
+struct Solution;
 
 #[derive(Debug, PartialEq, Eq)]
 pub struct TreeNode {

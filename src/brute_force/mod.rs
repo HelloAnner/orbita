@@ -3,5 +3,6 @@ mod difference_binary_matrix;
 mod check_if_a_acronym;
 mod beautiful_towers;
 mod is_winner;
+mod buy_choco;
 
 struct Solution;

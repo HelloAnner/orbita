@@ -5,5 +5,6 @@ mod beautiful_towers;
 mod is_winner;
 mod buy_choco;
 mod day_of_the_week;
+mod get_max_repetitions;
 
 struct Solution;

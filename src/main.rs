@@ -5,6 +5,7 @@ mod tree;
 mod use_lib;
 mod simutation;
 mod linked_list;
+mod stack;
 
 
 fn main() {

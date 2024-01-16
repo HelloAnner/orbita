@@ -1,5 +1,6 @@
 mod remove_nodes;
 mod insert_greatest_common_divisors;
+mod delete_duplicates;
 
 #[derive(PartialEq, Eq, Clone, Debug)]
 struct ListNode {

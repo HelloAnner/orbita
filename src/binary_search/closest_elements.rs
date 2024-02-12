@@ -12,7 +12,6 @@ impl Solution {
         let mut left = if found { i } else { i - 1 };
         let mut right = left + 1;
 
-
         for _ in 0..k {
             if left < 0 {
                 right += 1;
@@ -33,12 +32,13 @@ mod test {
 
     #[test]
     fn test_it() {
-        assert_eq!(vec![1, 2, 2, 2], Solution::find_closest_elements(vec![1, 2, 2, 2, 5, 5, 5, 8, 9, 9], 4, 0));
-        assert_eq!(vec![1, 2, 3, 4], Solution::find_closest_elements(vec![1, 2, 3, 4, 5], 4, 3));
+        assert_eq!(
+            vec![1, 2, 2, 2],
+            Solution::find_closest_elements(vec![1, 2, 2, 2, 5, 5, 5, 8, 9, 9], 4, 0)
+        );
+        assert_eq!(
+            vec![1, 2, 3, 4],
+            Solution::find_closest_elements(vec![1, 2, 3, 4, 5], 4, 3)
+        );
     }
 }
-
-
-
-
-

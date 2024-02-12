@@ -4,7 +4,6 @@ use crate::linked_list::{ListNode, Solution};
 
 // 删除排序链表中的重复元素
 
-
 impl Solution {
     pub fn delete_duplicates(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut dummy = Box::new(ListNode::new(0));

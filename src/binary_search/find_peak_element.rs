@@ -4,7 +4,6 @@
 // 你可以假设 nums[-1] = nums[n] = -∞ 。
 // 你必须实现时间复杂度为 O(log n) 的算法来解决此问题。
 
-
 use crate::binary_search::origin::Solution;
 
 impl Solution {

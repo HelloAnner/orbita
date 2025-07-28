@@ -6,4 +6,6 @@
 
 build/
 
-.gardle/
+.gradle/
+
+**/.DS_Store
